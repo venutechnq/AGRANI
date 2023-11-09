@@ -1,0 +1,1170 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+.navbar-brand img{
+    margin-left: 10px;
+	margin-right: 250px;
+}
+
+.navbar-nav li{
+    padding: 10px;
+}
+.navbar-nav li a{
+	color: blue;
+  font-size: 17px;
+}
+
+@media (max-width: 768px) {
+	.navbar-brand img {
+		margin-right: 10px;
+	}
+
+	.navbar-nav li {
+		padding: 5px;
+	}
+}
+
+
+
+
+.container-12 img{
+    width: 100%;
+  
+    }
+
+.main-1{
+    background-color: rgb(179, 177, 175);
+    
+    
+    
+}
+
+
+.vg p{
+  font-size: 20px;
+}
+
+
+
+
+
+.collapse {
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+  
+.active,
+.collapse:hover {
+    color: red;
+}
+  
+.text {
+    color: whitesmoke;
+    display: none;
+    font-size: 30px;
+}
+.text:hover{
+    cursor: pointer;
+}
+
+
+ .image img {
+    border-radius: 20px;
+    margin-left: 10px;
+ }
+
+ .image h1  {
+    margin-top: 30px;
+    margin-left: 150px;
+
+}
+
+.image ul {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.image ul li {
+    margin-left: 140px;
+}
+
+.tab {
+    overflow: hidden;
+   
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    margin-left: 30px;
+    padding: 14px 12px;
+    transition: 0.3s;
+    font-size: 17px;
+  margin-bottom: 30px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: orangered;
+    border: 1px solid orangered;
+  
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: blue;
+    border: 1px solid blue;
+  }
+  
+  /* Style the tab content */
+  .container80{
+      box-sizing: border-box;
+      background-color: #eedbdb;
+      width: 80%;
+      height: 800px;
+      margin-left: 130px;
+      margin-right: 60px;
+  }
+  .container90{
+  background-color: #71d9f8;
+  height: 120vh;
+  margin: 0px;
+  
+  }
+.abcd h1{
+    text-align: center;
+}
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  .tabcontent h3{
+      text-align: center;
+      font-size: 30px;
+      padding: 4px;
+      color: rgb(192, 10, 10);
+      font-weight: bold;
+  }
+  .tabcontent ul li{
+      list-style-type: none;
+      padding: 3px;
+      
+      padding: 2px;
+      text-align: center;
+      line-height: 50px;
+      font-size: 20px;
+      color: #d61111;
+  }
+  .tabcontent .btn-12345{
+      text-align: center;
+      margin-left: 420px;
+      border: 1px solid red;
+      background-color: red;
+      color: white;
+      font-size: 20px;
+     padding: 4px 15px;
+     border-radius: 5px;
+     border-bottom: none;
+  }
+  .tabcontent .btn-12345 a{
+      border: 1px solid red;
+      background-color: red;
+      color: white;
+      text-decoration: none;
+  }
+  
+  /* Style the close button */
+  .topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+  }
+  
+  .topright:hover {
+      color: red;
+      }
+  
+  .images{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+      grid-gap: 5px;
+      margin-left: 50px;
+      
+  }
+.grid-9 img{
+    height: 30vh;
+    width: 80%;
+      border-radius: 20px;
+      margin-left: 50px;
+
+}
+.grid-19 img{
+    height: 30vh;
+    width: 80%;
+      border-radius: 20px;
+      margin-left: 50px;
+
+}
+  
+
+  .imagess{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+      grid-gap: 5px;
+      margin-left: 150px;
+  }
+   .grid-10 img{
+    height: 30vh;
+    width: 80%;
+      border-radius: 20px;
+      margin-left: 50px;
+  }
+  .grid-11 img{
+    height: 30vh;
+    width: 80%;
+      border-radius: 20px;
+      margin-left: 50px;
+  }
+  
+
+  .grid{
+    
+    
+   padding-top: 100px;
+    
+    background-color: antiquewhite;
+  }
+
+  .wrapper{
+    padding: 20px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap: 5px;
+
+}
+
+.grid-0 h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.wrapper img{
+    
+    border-radius: 40px;
+    width: 400px;
+    height: 30vh;
+    margin-left: 30px;
+}
+
+.footer-distributed{
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (min-width: 820px) {                                                               /* ////////////////*/
+
+    .container-12 img{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .main h1{
+        font-size: 35px;
+        margin-left: 10px;
+        
+        
+         font-family: Monospace,Fantasy;
+         color: rgba(248, 10, 10, 0.897);
+         
+   }
+
+
+   .image p{
+    font-style: initial;
+    font-weight: 100;
+    
+}
+
+.image img{
+    
+    width: 100%;
+    height: 50vh;
+    margin-right: 70px;  
+    margin-top: 30px;
+    
+}
+.image button{
+    margin-left: 50px;
+}
+
+.collapse {
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+  
+.active,
+.collapse:hover {
+    color: red;
+}
+  
+.text {
+    color: whitesmoke;
+    display: none;
+    font-size: 30px;
+}
+.text:hover{
+    cursor: pointer;
+}
+
+.main-1{
+    background-color: rgb(175, 177, 179);
+    width: 100%;
+    height: 102vh;
+    font-size: medium;
+    
+}
+
+.image p{
+    margin-bottom: 20px;
+     font-size: 20px;
+ 
+ }
+
+ .image img {
+    border-radius: 20px;
+    margin-top: 40px;
+ }
+
+ .image h1  {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+.tab {
+    overflow: hidden;
+   
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    margin-left: 30px;
+    padding: 14px 12px;
+    transition: 0.3s;
+    font-size: 17px;
+  margin-bottom: 30px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: orangered;
+    border: 1px solid orangered;
+  
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: blue;
+    border: 1px solid blue;
+  }
+  
+  /* Style the tab content */
+  .container80{
+      box-sizing: border-box;
+      background-color:#eedbdb;
+      width: 100%;
+      height: 800px;
+      margin-left: 0px;
+      margin-right: 60px;
+  }
+  .container90{
+  
+  height: 82vh;
+  margin: 0px;
+  
+  }
+.abcd h1{
+    text-align: center;
+}
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  .tabcontent h3{
+      text-align: center;
+      font-size: 30px;
+      padding: 4px;
+      color: rgb(192, 10, 10);
+      font-weight: bold;
+  }
+  .tabcontent ul li{
+      list-style-type: none;
+   
+     padding: 0px;
+      line-height: 50px;
+      font-size: 20px;
+      color: blue;
+  }
+  .tabcontent .btn-12345{
+      text-align: center;
+      margin-left: 420px;
+      border: 1px solid red;
+      background-color: red;
+      color: white;
+      font-size: 20px;
+     padding: 4px 15px;
+     border-radius: 5px;
+     border-bottom: none;
+  }
+  .tabcontent .btn-12345 a{
+      border: 1px solid red;
+      background-color: red;
+      color: white;
+      text-decoration: none;
+  }
+
+
+  
+  .images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    
+    margin-left: 0px;
+    
+}
+.grid-9 img{
+  height: 30vh;
+  width: 80%;
+    border-radius: 20px;
+   
+
+}
+.grid-19 img{
+  height: 30vh;
+  width: 80%;
+    border-radius: 20px;
+   
+
+}
+
+
+.imagess{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+   margin-left: 0px;
+   
+}
+ .grid-10 img{
+  height: 20vh;
+  width: 60%;
+    border-radius: 20px;
+   
+}
+.grid-11 img{
+  height: 20vh;
+  width: 60%;
+    border-radius: 20px;
+    margin-top: 20px;
+ 
+}
+
+.grid{
+    
+    
+    margin-top:0px;
+    margin-bottom: 0px;
+    
+  }
+
+  .wrapper{
+    padding: 0px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap: 0px;
+
+}
+
+.grid-0{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.wrapper img{
+    
+    border-radius: 40px;
+    width: 100%;
+    height: 30vh;
+    padding-right: 30px;
+    
+   
+}
+
+
+}
+
+/*phone*/
+@media screen and (max-width: 819px) {
+
+
+ 
+    .vg p {
+      font-size: 20px;
+     
+    }
+  
+  
+
+    .container-12 img{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .main h1{
+        font-size: 15px;
+        
+        
+         font-family: Monospace,Fantasy;
+         color: rgba(248, 10, 10, 0.897);
+         
+   }
+
+
+   .image p{
+    font-style: initial;
+    font-weight: 100;
+    
+}
+
+.image img{
+    
+    width: 600px;
+    height: 50vh;
+    margin-right: 70px;  
+    margin-top: 30px;
+    
+}
+.image button{
+    margin-left: 50px;
+}
+
+.collapse {
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+  
+.active,
+.collapse:hover {
+    color: red;
+}
+  
+.text {
+    color: whitesmoke;
+    display: none;
+    font-size: 30px;
+}
+.text:hover{
+    cursor: pointer;
+}
+
+.main-1{
+    background-color: rgb(175, 177, 179);
+    width: 100%;
+    height: 102vh;
+    font-size: medium;
+    
+}
+
+.image p{
+    margin-bottom: 20px;
+     font-size: 20px;
+     padding: 20px ;
+     height: 350px;
+     margin-left: 0px;
+ }
+
+ .image img {
+    border-radius: 20px;
+    margin-left: 10px;
+ }
+
+ .image h1  {
+    margin-top: 30px;
+    margin-left: 150px;
+
+}
+
+.image ul {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.image ul li {
+    margin-left: 140px;
+}
+
+
+
+
+
+
+.tab {
+    overflow: hidden;
+   
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    margin-left: 30px;
+    padding: 14px 12px;
+    transition: 0.3s;
+    font-size: 17px;
+  margin-bottom: 30px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: orangered;
+    border: 1px solid orangered;
+  
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: blue;
+    border: 1px solid blue;
+  }
+  
+  /* Style the tab content */
+  .container80{
+      box-sizing: border-box;
+      background-color: #eedbdb;
+      width: 100%;
+      height: 800px;
+      margin-left: 0px;
+      margin-right: 60px;
+  }
+  .container90{
+  background-color: #71d9f8;
+  height: 120vh;
+  margin: 0px;
+  
+  }
+.abcd h1{
+    text-align: center;
+}
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  .tabcontent h3{
+      text-align: center;
+      font-size: 30px;
+      padding: 4px;
+      color: rgb(192, 10, 10);
+      font-weight: bold;
+  }
+  .tabcontent ul li{
+      list-style-type: none;
+   
+     padding: 0px;
+      line-height: 50px;
+      font-size: 20px;
+      color: blue;
+  }
+  .tabcontent .btn-12345{
+      text-align: center;
+      margin-left: 420px;
+      border: 1px solid red;
+      background-color: red;
+      color: white;
+      font-size: 20px;
+     padding: 4px 15px;
+     border-radius: 5px;
+     border-bottom: none;
+  }
+  .tabcontent .btn-12345 a{
+      border: 1px solid red;
+      background-color: red;
+      color: white;
+      text-decoration: none;
+  }
+
+
+  
+  .images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    
+    margin-left: 0px;
+    
+}
+.grid-9 img{
+  height: 30vh;
+  width: 80%;
+    border-radius: 20px;
+   
+
+}
+.grid-19 img{
+  height: 30vh;
+  width: 80%;
+    border-radius: 20px;
+   
+
+}
+
+
+.imagess{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+   margin-left: 0px;
+   
+}
+ .grid-10 img{
+  height: 20vh;
+  width: 60%;
+    border-radius: 20px;
+   
+}
+.grid-11 img{
+  height: 20vh;
+  width: 60%;
+    border-radius: 20px;
+    margin-top: 20px;
+ 
+}
+
+.grid{
+    
+    
+    margin-top:0px;
+    margin-bottom: 0px;
+    
+  }
+
+  .wrapper{
+    padding: 0px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap: 0px;
+
+}
+
+.grid-0{
+    text-align: center;
+    font-size: 30px;
+}
+
+.wrapper img{
+    
+  border-radius: 40px;
+  width: 100%;
+  height: 30vh;
+  padding-right: 30px;
+    
+   
+}
+
+
+
+
+
+.footer-distributed{
+  background-image: url(../img/bv.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  width: 100%;
+  height: 100%;
+	/* background-image: url(../img/bv.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 0px; */
+   
+
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+    
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+  display: flex;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+}
+/* footer End */

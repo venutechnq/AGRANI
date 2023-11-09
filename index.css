@@ -1,0 +1,595 @@
+.navbar-brand img{
+    margin-left: 10px;
+  margin-right: 300px;
+  }
+  
+  .navbar-nav li{
+    padding: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-brand img {
+      margin-right: 10px;
+    }
+  
+    .navbar-nav li {
+      padding: 5px;
+    }
+  }
+  /* images slider start */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+:root {
+  /*  FONTS  */
+  --font-family: sans-serif;
+  --font-size: 62.5%;
+  --line-height: base-line;
+  /*  WIDTHS  */
+  --container-width: 1366px;
+}
+
+html {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+
+
+#header,
+#main,
+#footer {
+  margin: 1.5rem 0rem;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+}
+
+/* STYLE HTML ELEMENTS */
+#title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+#contain-image {
+  position: relative;
+  width: 100%;
+  height: 45rem;
+  box-shadow: 0rem 0.7rem 2rem rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.img {
+  display: none;
+}
+
+#contain-button {
+  position: initial;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button:hover,
+.button:focus {
+  opacity: 0.5;
+  transition: opacity ease-in-out 0.1s;
+}
+
+.active {
+  opacity: 0.5;
+}
+
+#signature {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+section{
+  background-color: white ;
+}
+/* images slider end */
+
+
+
+/* card slider start */
+
+#container {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    
+    padding: 0;
+    background: hsl(204, 37%, 92%);
+    display: grid ;
+    place-items: center
+  }
+  
+  #slider-container {
+    height: 300px;
+    width: 85vw;
+    max-width: 1400px;
+    background: #54d5e4;
+    box-shadow: 5px 5px 8px gray inset;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  #slider-container .btn {
+    position: absolute;
+    top: calc(50% - 30px);
+    height: 30px;
+    width: 30px;
+    border-left: 8px solid pink;
+    border-top: 8px solid pink;
+  }
+  
+  #slider-container .btn:hover {
+    transform: scale(1.2);
+  }
+  
+  #slider-container .btn.inactive {
+    border-color: rgb(153, 121, 126)
+  }
+  
+  #slider-container .btn:first-of-type {
+    transform: rotate(-45deg);
+    left: 10px
+  }
+  
+  #slider-container .btn:last-of-type {
+    transform: rotate(135deg);
+    right: 10px;
+  }
+  
+  #slider-container #slider {
+    display: flex;
+    width: 1000%;
+    height: 100%; 
+    transition: all .5s;
+  }
+  
+  #slider-container #slider .slide {
+    height: 90%;
+    margin: auto 10px;
+    background-color: #47a89d;
+    box-shadow: 2px 2px 4px 2px white, -2px -2px 4px 2px white;
+    display: grid;
+    place-items: center;
+  }
+  
+  #slider-container #slider .slide span {
+    color: white;
+    font-size: 150px;
+  }
+  
+  @media only screen and (min-width: 1100px) {
+  
+    #slider-container #slider .slide {
+      width: calc(2.5% - 20px);
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1100px) {
+  
+    #slider-container #slider .slide {
+      width: calc(3.3333333% - 20px);
+    }
+  
+  }
+  
+  @media only screen and (max-width: 900px) {
+  
+    #slider-container #slider .slide {
+      width: calc(5% - 20px);
+    }
+  
+  }
+  
+  @media only screen and (max-width: 550px) {
+  
+    #slider-container #slider .slide {
+      width: calc(10% - 20px);
+    }
+  
+  }
+  /*card sliders end */
+
+
+
+/*school details start */
+.school-bg{
+    background-image: url(images/student.avif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: scroll;
+      background-size: auto;
+  }
+  .school-bg .school-heading{
+      text-align: center;
+      padding: 40px;
+  }
+  .school-bg .school-heading h1{
+      font-size: 38px;
+      font-weight: 700;
+  }
+  .school-bg .school-heading .school-brdr-btm{
+      border-bottom: 5px solid skyblue;
+      width: 15%;
+      margin: 0 auto;
+  }
+  .school-list{
+      list-style-type: none;
+      padding: 40px 0 40px 0;
+  }
+  .school-list li{
+      
+      padding: 7px 0px 7px 99px;
+      width: 100%;
+      margin: 5px 0;
+    align-items: center;
+  }
+  .school-list li a{
+      color: #FFFFFF;
+  }
+  /*school details end */
+
+
+  /* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  marquee{
+	position: relative;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+  }
+  .vert-tab > div {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 10%;
+    cursor: pointer;
+    height: 388px;
+    transition: all 0.5s ease 0s;
+    overflow: hidden;
+  }
+  .recr-content {
+    background: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #f3f3fd;
+    padding: 36px 28px;
+    margin-top: 36px;
+    border: 1px solid;
+  }
+  .recr-content h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000a19;
+    white-space: nowrap;
+    transform: rotate(269deg);
+  }
+  .work_items_content {
+    display: none;
+  }
+  .vert_tab_image_wrrapeer {
+    display: flex;
+    align-items: center;
+  }
+  .vert-tab-content h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 81px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000a19;
+    margin-bottom: 30px;
+  }
+  .vert-tab-content h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000a19;
+    margin-bottom: 20px;
+  }
+  .vert-tab-content p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 96%;
+    color: #000a19;
+    margin-left: 0px;
+    margin-right: auto;
+  }
+  .recr-content.active {
+    width: 100%;
+  }
+  .recr-content.active {
+    background: white;
+    border-color: #ababc8;
+  }
+  .recr-content.active h3 {
+    display: none;
+  }
+  .recr-content.active .work_items_content {
+    display: block;
+  }
+  
+  .recr-content img {
+    max-width: 100%;
+    height: 426px;
+  }
+  .vert-tab {
+    display: flex;
+  }
+  
+
+
+
+  .footer-distributed{
+    background-image: url(../img/bv.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    
+    height: 100%;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left{
+    width: 40%;
+      
+  }
+  
+  /* The company logo */
+  
+  .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+  }
+  
+  .footer-distributed h3 span{
+    color:  lightseagreen;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+  }
+  
+  .footer-distributed .footer-company-name{
+    color:  #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center{
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    font-weight:400;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+    color:  lightseagreen;
+    text-decoration: none;;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+    width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons{
+    margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  /* If you don't want the footer to be responsive, remove these media queries */
+  
+  @media (max-width: 880px) {
+  
+    .footer-distributed{
+      font: bold 14px sans-serif;
+    }
+  
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .footer-distributed .footer-center i{
+      margin-left: 0;
+    }
+  
+  }
+  /* footer End */

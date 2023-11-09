@@ -1,0 +1,602 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand img{
+  margin-left: 10px;
+margin-right: 250px;
+}
+
+.navbar-nav li{
+  padding: 10px;
+}
+.navbar-nav li a{
+	color: blue;
+}
+
+/*--nav bar code ends-- */
+@media (min-width: 576px){
+.navbar-expand-sm .navbar-collapse {
+  display: flex!important;
+  flex-basis: auto;
+  margin-left: 127px;
+}
+}
+
+.Admission-page-bg {
+  background-position: bottom center;
+  background-blend-mode: screen;
+  background-color: initial;
+  height: 380px;
+  position: relative;
+  background-size: cover;
+}
+
+/*-- image code ends--*/
+
+.container1 {
+  width: 100%;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Aplication-form .form-check.form-check-inline {
+  margin-left: 126px;
+  margin-bottom: 23px;
+  font-size: 20px;
+}
+.row-1 {
+  display: flex;
+
+  flex-wrap: wrap;
+  margin-right: -189px;
+  margin-left: -92px;
+}
+.col-lg-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.Admission-page-bg h2 {
+  color: var(--blue);
+  padding-top: 150px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.admission-sub-bg {
+  position: relative;
+  height: 735px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.admission-heading-content {
+  padding: 100px;
+  padding-bottom: 40px !important;
+}
+
+/* div {
+            display: block;
+        } */
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.admission-heading-content h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: var(--blue);
+  font-size: 70px;
+  margin: bottom 50px;
+}
+.Aplication-form .container1 {
+  width: 50%;
+  border: 2px dotted #ffffff;
+  padding: 30px;
+}
+@media (min-width: 768px) {
+  .Aplication-form .container1 {
+    width: 50%;
+    border: 2px dotted #ffffff;
+    padding: 30px;
+  }
+  .container1 {
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: 227px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container1 {
+    max-width: 960px;
+  }
+}
+
+.Aplication-form {
+  display: block;
+  z-index: -2;
+  width: 100%;
+  height: 1158px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 80px;
+  padding-bottom: 25px;
+  margin-top: -23px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.card .card-body .card-title {
+  color: #2e3094;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+}
+
+.card .card-body .card-text-1 {
+  background-color: #d3d3d352;
+  padding: 5px;
+  border: 1px solid #d3d3d352;
+  border-radius: 10px;
+}
+
+.card .card-body .div-under-text {
+  margin-bottom: 3px !important;
+  color: rgb(51, 168, 223);
+  font-size: 13px;
+}
+
+.card .card-body .card-text-1 p {
+  margin: 0 !important;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+.card .card-body .card-text-1 .admission-mnth {
+  background-color: rgb(51, 168, 223);
+  text-align: center;
+
+  border-radius: 6px;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+.card .card-body .div-under-text {
+  margin-bottom: 3px !important;
+  color: rgb(51, 168, 223);
+  font-size: 13px;
+}
+
+.card .card-body .card-text-1 {
+  background-color: #d3d3d352;
+  padding: 5px;
+  border: 1px solid #d3d3d352;
+  border-radius: 10px;
+}
+
+.card .card-body .card-text-2 {
+  background-color: #d3d3d352;
+  padding: 5px;
+  border: 1px solid #d3d3d352;
+  border-radius: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.card .card-body .card-text-2 p {
+  margin: 0 !important;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card .card-body .card-text-2 .admission-mnth {
+  background-color: rgb(51, 168, 223);
+  text-align: center;
+  border-radius: 6px;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+.card .card-body .card-btn {
+  color: #fff;
+  background-color: rgb(51, 168, 223);
+  /* border-color: #ED1B24; */
+  padding: 20px 40px 20px 40px;
+  border-radius: 40px;
+  font-size: 14px;
+}
+.card .card-body .card-btn:hover {
+  color: #e9baba;
+  background-color: rgb(73, 17, 17);
+  border-color: rgb(51, 168, 223);
+  padding: 20px 40px 20px 40px;
+  border-radius: 40px;
+  font-size: 14px;
+}
+.card .card-body {
+  border-bottom: 3px solid var(--blue);
+}
+
+.card .card-img-top {
+  height: 160px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.Aplication-form .form-img img {
+  max-width: 180px;
+  border: 4px solid #ffffff;
+  width: 186px;
+}
+
+input[type="file"] {
+  padding: 10px;
+  background: lightgrey;
+  position: relative;
+  right: 16px;
+  margin-top: 12px;
+  width: 40%;
+  font-size: 12px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.Aplication-form h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.Aplication-form .form-label p {
+  margin-left: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+.Aplication-form .form-check.form-check-inline label {
+  color: white;
+}
+
+.Aplication-form .form-check.form-check-inline input {
+  border: 2px solid;
+  width: 30px;
+  height: 20px;
+  background-color: #ed1b24;
+}
+
+.form-check-inline .form-check-input {
+  position: static;
+  margin-top: 0;
+  margin-right: 0.3125rem;
+  margin-left: 0;
+}
+
+.Aplication-form .aplication-form-btn {
+  border: 1px solid rgb(51, 168, 223);
+  width: 90%;
+  color: #ffffff;
+  background-color: rgb(51, 168, 223);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  height: 42px;
+}
+.Aplication-form .aplication-form-btn:hover {
+  border: 1px solid rgb(51, 168, 223);
+  width: 90%;
+  color: #ffffff;
+  background-color: rgb(219, 13, 30);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  height: 42px;
+}
+
+.Aplication-form .form-btn {
+  text-align: center;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.Aplication-form .form-img img {
+  max-width: 180px;
+  border: 4px solid #ffffff;
+  width: 186px;
+}
+
+
+
+.Aplication-form .container {
+  width: 50%;
+  border: 2px dotted #FFFFFF;
+  padding: 30px;
+}
+
+/* Footer start */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background-image: url(../img/bv.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    
+    height: 100%;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px "Open Sans", cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: lightseagreen;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+/* footer End */
+
+@media (min-width: 600px) {
+  .card-group {
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    /* padding: 10px; */
+    margin-left: -355px;
+  }
+}
+.card {
+    position:relative ;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    margin: 14px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    /* padding: 30px; */
+    border-radius: 0.25rem;
+}

@@ -1,0 +1,437 @@
+*{
+padding: 0%;
+margin: 0%;
+width: 100%;
+
+}
+
+
+.navbar-brand img{
+margin-left: 10px;
+height: 150px;
+width: 150px;
+}
+.navbar-nav li a{
+	color: blue;
+}
+.navbar-nav li{
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+	.navbar-brand img {
+		margin-right: 10px;
+	}
+
+	.navbar-nav li {
+		padding: 5px;
+	}
+}
+
+.img{
+/* background-image: url(https://www.cutehr.com/wp-content/uploads/2019/04/employee-portal-searchbar.jpg);
+height: 80vh;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 80%; */
+
+background-image: url(https://www.cutehr.com/wp-content/uploads/2019/04/employee-portal-searchbar.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 350px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.Header-Content h1{
+color:lightsalmon;
+font-size: 50px;
+text-align: center;
+font-family: Calibri;
+padding-top: 24vh;
+font-family: 'Lucida Sans';
+padding-bottom: 100px;
+padding-right: 100px;
+padding-right: 150px;
+}
+
+
+
+.Paragraph-Content{
+margin-top: 100px;
+margin-left: 50 px;
+font-size: 15px;
+display: flex;
+}   
+.Statement img{
+float: right;
+width: 50%;
+height: 400px;
+padding-right: 70px;
+padding-left:50px ;
+}
+.Welcome h1{
+padding-top: 50px;
+padding-left: 70px;
+color: rgb(51, 168, 223);
+font-size: 30px;
+}
+.Welcome p{
+    padding-left: 70px;
+    font-size: 18px;
+}
+.Statement h1{
+    padding-top: 30px;
+    padding-left: 70px;
+    color: rgb(51, 168, 223);
+    font-size: 30px;
+}
+.Statement p{
+    padding-left: 70px;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.Cerihshed h1{
+    padding-top: 20px;
+    padding-left: 70px;
+    color: rgb(51, 168, 223);
+    font-size: 30px;
+}
+.Cerihshed p{
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.VISION h1{
+    padding-top: 10px;
+    padding-left: 70px;
+    color: rgb(51, 168, 223);
+    font-size: 30px;
+}
+.VISION p{
+    padding-left: 70px;
+    font-size: 18px;
+    padding-top:10px
+
+}
+.Hotel-Content{
+  background-image: url(https://hm.sdc.ac.in/wp-content/uploads/2014/02/RAM_2847.jpg);
+  height: 80vh;
+  background-position: center;
+  background-size: 100% 100%;
+  padding-top: 40px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 70px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    
+}
+.Hotel-Content h1{
+    color:red;
+    font-size: 36px;
+    font-family: 'Lucida Sans';
+    
+}
+.Hotel-Content h3{
+    color:darkgreen;
+    font-size: 19px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.Hands-Content h1{
+    text-align: center;
+    color:rgb(224, 25, 25);
+    padding-top:0px
+}
+.Real Content{
+width: 80vw;
+min-height: 400px;
+display: flex;
+}
+.Head-Container{
+  margin-top: 20px;
+  background-color: lightgray;
+}
+.row {
+  width: 100%;
+}
+.row img{
+  padding: 0%;
+  width: 100%;
+}
+.Hands-Content h1{
+  color:crimson;
+}
+.Button-Content button{
+    background-color:brown;
+    color: whitesmoke;
+    border: none;
+    font-size: 25px; 
+    border-radius: 30px;
+    margin-top: 100px;
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+}
+.Button-Content button:hover{
+    background-color:green;
+}
+.Head {
+  background-color:lightgray;
+  margin-top: 30px;
+}
+
+
+
+.footer-distributed{
+	background-image: url(../img/bv.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    height: 100%;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	
+}
+
+.footer-distributed .footer-links a{
+	/* display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none; */
+	color:  inherit;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+/* footer End */
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.Real-Content{
+  color: lightskyblue;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+  margin-left: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.card-body{
+  padding: 30px 20px;
+  box-shadow: 0 0 25px lightgray;
+  border-radius: 20px;
+  text-align: left;
+  
+}
+.footer-distributed img{
+  height: 130px;
+}

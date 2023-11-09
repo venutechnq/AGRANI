@@ -1,0 +1,459 @@
+
+/* .page-menu-items{
+	padding: 20px;
+}
+.main{
+    width: 223px;
+    padding: 28px;
+    height: 167px;
+}
+.Menu-row{
+	display: -webkit-inline-box;
+}
+.page-menu-items .nav-menu .mainnav{
+	position: relative;
+	top: 60px;
+	left: 65px;
+}
+
+
+
+nav{display: block;}
+#mainnav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#mainnav > ul > li {
+    display: inline-block;
+    padding: 0px;
+}
+#mainnav ul li {
+    position: relative;
+}
+.header #mainnav > ul > li > a {
+    line-height: 100px;
+}
+#mainnav > ul > li.home > a {
+    color: #061f5e;
+}
+#mainnav > ul > li.home > a:hover{
+	color: #71c715;
+}
+#mainnav > ul > li > a:hover{
+	color: #71c715;
+}
+#mainnav > ul > li > a {
+    position: relative;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: #2e3094;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 8px;
+    font-weight: 600;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#mainnav ul.submenu {
+	margin-top: 10px;
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 8px;
+    left: 0;
+    top: 150%;
+    width: 270px;
+    text-align: left;
+    z-index: 9999;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#mainnav ul.submenu li:first-child {
+    border-top: none;
+}
+#mainnav ul.submenu > li {
+    border-top: none;
+    padding: 5px;
+}
+#mainnav ul.submenu > li:hover{
+	background-color: #061f5e;
+}
+#mainnav ul.submenu > li > a:hover{
+	color: #ffffff;
+}
+#mainnav ul li ul li {
+    margin-left: 0;
+}
+#mainnav ul.submenu > li > a {
+    display: block;
+    color: #2e3094;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0 0 0 20px;
+    line-height: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#mainnav ul li:hover > ul.submenu {
+    top: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    visibility: visible;
+    color: #71c715;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand img{
+    margin-left: 10px;
+  margin-right: 250px;
+  }
+  
+  .navbar-nav li{
+    padding: 10px;
+  }
+
+  .navbar-nav li a{
+	color: blue;
+}
+/*--nav bar code ends-- */
+@media (min-width: 576px){
+.navbar-expand-sm .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    margin-left: 127px;
+}
+}
+
+/*--nav bar code ends-- */
+
+
+
+.admission-steps .content h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 30px;
+    color: blue;
+}
+
+.admission-steps {
+    padding: 50px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.admission-steps .content .brdr-btm {
+    border-bottom: 4px solid blue;
+    width: 18%;
+}
+
+.admission-steps .content h3 {
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+
+strong {
+    font-weight: bolder;
+    color: #033a75;
+}
+.admission-steps .content p.note {
+    background-color: #e8e5e5;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+.admission-steps .content p {
+    font-size: 17px;
+    margin: 20px 0 20px 0;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #007bff;
+    text-decoration: none;
+} 
+
+.admission-steps .content .accordion .card .card-body {
+    border-bottom: 1px solid #573af8;
+    background-color: #FFFFFF;
+}
+
+.btn-link:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.admission-steps .content .accordion .card:hover {
+    border: 1px solid rgb(2, 2, 105);
+    border-radius: 0;
+    background-color: rgb(2, 2, 105);
+}
+
+
+.admission-steps .content p .red-dot {
+    color: rgb(2, 2, 105);
+    font-size: 25px;
+    font-weight: 900;
+    position: relative;
+    bottom: 4px;
+}
+.admission-steps .content p span {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer start */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed{
+	background-image: url(../img/bv.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    
+    height: 100%;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+/* footer End */
+
+

@@ -1,0 +1,420 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+}
+#slideshow {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+  }
+  .navbar-brand img{
+    height: 150px;
+    width: 150px;
+  }
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    animation: slide 16 infinite; 
+  }
+  .slide.active {
+    opacity: 1;
+  }
+  .card-shape img{
+    width: 100%;
+  }
+  .slide img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 2000px;
+    transform: translate(-50%, -50%);
+  
+  }
+  .card-shape{
+    background-color:white;
+    width: 250px;
+    display:inline-block;
+    margin-left: 150px;
+  }
+  .sub-back{
+    background-color: rgba(211, 211, 211, 0.91);
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    padding: 0%;
+    height: 100px;
+  }
+  .sub-back p1{
+    -webkit-text-fill-color:whitesmoke;
+    height: 10px;
+  }
+  .sub-back p{
+    background-color:yellowgreen;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+  }
+ 
+  .box-shape{
+    text-align: center;
+    background-color:yellowgreen;
+    height: 600px;
+    width: 100%; 
+  }
+    /* Float four columns side by side */
+    .column {
+      float: left;
+      width: 25%;
+  
+      padding: 0 10px;
+      margin-left: 100PX;
+      margin-top: 20PX;
+    }
+    /* Remove extra left and right margins, due to padding */
+   
+    /* Clear floats after the columns */
+    .row:after {
+     
+      display: table;
+      clear: both;
+    }
+    /* Style the counter cards */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 50px;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+  
+    .navbar-brand img{
+      margin-left: 10px;
+    margin-right: 250px;
+  }
+  
+  .navbar-nav li{
+      padding: 10px;
+  }
+
+
+  .footer-distributed{
+    background-image: url(../img/bv.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    height: 100%;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left{
+    width: 40%;
+  }
+  
+  .footer-left img{
+    height: 150px;
+    width: 150px;
+  }
+  /* The company logo */
+  
+  .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+  }
+  
+  .footer-distributed h3 span{
+    color:  lightseagreen;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+  }
+  
+  .footer-distributed .footer-company-name{
+    color:  #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center{
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    font-weight:400;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+    color:  lightseagreen;
+    text-decoration: none;;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+    width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons{
+    margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  @media screen and (min-width: 820px) {
+
+
+
+    .card-shape{
+      background-color:white;
+      width: 250px;
+      display:inline-block;
+      margin-left: 10px;
+    }
+    .sub-back{
+      background-color: rgba(211, 211, 211, 0.91);
+      border-style: solid;
+      border-color: #fff;
+      border-radius: 20px 20px 20px 20px;
+      padding: 0%;
+      height: 100px;
+    }
+    .sub-back p1{
+      -webkit-text-fill-color:whitesmoke;
+      height: 10px;
+    }
+    .sub-back p{
+      background-color:yellowgreen;
+      border-style: solid;
+      border-color: #fff;
+      border-radius: 20px 20px 20px 20px;
+    }
+   
+    .box-shape{
+      text-align: center;
+      background-color:yellowgreen;
+      height: 600px;
+      width: 100%; 
+    }
+
+
+    .column {
+      
+      width: 50%;
+      display: inline-block;
+      padding: 0 10px;
+      margin-left: 0PX;
+      margin-top: 20PX;
+    }
+    /* Remove extra left and right margins, due to padding */
+   
+    /* Clear floats after the columns */
+    .row:after {
+     
+      display: table;
+      clear: both;
+    }
+    /* Style the counter cards */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 50px;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+
+
+    
+  }
+  
+  /*phone*/
+  @media screen and (max-width: 819px) {
+
+    .slide img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 100%;
+      width: 2000px;
+      transform: translate(-50%, -50%);
+    
+    }
+
+  .card-shape{
+    background-color:white;
+    width: 100px;
+    display:inline-block;
+    margin-left:20px;
+  }
+
+  .card-shape i{
+    font-size: 10px;
+  }
+  .sub-back{
+    background-color: rgba(211, 211, 211, 0.91);
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    padding: 0%;
+    height: 100px;
+  }
+  .sub-back p1{
+    font-size: 20px;
+    -webkit-text-fill-color:whitesmoke;
+    height: 10px;
+  }
+  .sub-back p{
+    font-size: 10px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+  }
+ 
+  .box-shape{
+    text-align: center;
+    height: 600px;
+    width: 100%; 
+    
+   
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    background-color: #f1f1f1;
+    
+  }
+
+  .card img{
+    width: 100%;
+  }
+  .column {
+    width: 85%;
+    padding:10px;
+    margin-left: 0px;
+    margin-top: 20PX;
+    margin-left: 40px;
+  }
+
+
+    
+  }
+
+
+  /*
+   Responsive columns - one column layout (vertical) on small screens 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }*/

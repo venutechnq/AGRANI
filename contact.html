@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/logo.png" alt="" style="height: 100px; width: 130px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar" >
+            <ul class="navbar-nav">  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" style="font-size: 15px;">HOME</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="ABOUT.html" style="font-size: 20px;">About us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="font-size: 15px;">BOARD & COUNCIL</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="CEO's Message.html" style="font-size: 20px;">CEO Message</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="font-size: 15px;">SCHOOLS</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Hospitality&tourism.html" style="font-size: 20px;">Hospitality & Tourism</a></li>
+                    <li><a class="dropdown-item" href="Businees school.html" style="font-size: 20px;">Business Schools</a></li>
+                    <li><a class="dropdown-item" href="Advertising&pg.html" style="font-size: 20px;">Adversiting, pg & Events</a></li>
+                    <li><a class="dropdown-item" href="photography.html" style="font-size: 20px;">Photography</a></li>
+                    <li><a class="dropdown-item" href="Fashion&Design.html" style="font-size: 20px;">Fashion & Design</a></li>
+                    <li><a class="dropdown-item" href="webdesign&animation.html" style="font-size: 20px;">Web Design & Animation</a></li>
+                    <li><a class="dropdown-item" href="digital&marketing.html" style="font-size: 20px;">Digital Marketing</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="font-size: 15px;">ADMISSION</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="admission main page.html" style="font-size: 20px;">Online Registration</a></li>
+                    <li><a class="dropdown-item" href="admission process.html" style="font-size: 20px;">Admission Process</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="font-size: 15px;">FACILITIES</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Infrastructure.html" style="font-size: 20px;">Infrastructure</a></li>
+                    <li><a class="dropdown-item" href="CELEBRITIES.html" style="font-size: 20px;">Wrokshopn through celebrities</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" style="font-size: 15px;">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    <div>
+     <span id="text">Lights off</span>
+    <div id="intrerupator" tabindex="1">
+    </div>
+    </div>
+    <!-- START FORM BODY -->
+    <div id="container">
+        <header>
+            <div class="img2">
+            <img src="images\chef2.png" alt="logo">
+        </div>
+            <h1>CONTACT US!</h1>
+        </header>
+   
+        <h3>Fields marked with <span>*</span> are required. </h3>
+        <form method="post">
+            <!-- START DIV part-1 PERSONAL INFORMATION -->
+            <div id="part-1">
+                <fieldset>
+                    <legend><i class="fa fa-address-book" aria-hidden="true"></i> Personal Information</legend>
+                    <br/>
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" autofocus required>
+                    <br/>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" required> 
+                    <br/>
+                    <label for="birthdate">Birth Date</label>
+                    <input type="date" name="birthdate" min="1917-01-01" id="birthdate" required>
+                    <br/>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" min="0" max="100" id="age" required>
+                    <br/>
+                    <label for="gender">Gender</label>
+                    <br/>
+                    <input type="radio" name="gender" value="female" id="gender" required>Female
+                    <br/>
+                    <input type="radio" name="gender" value="male" required>Male
+                    <br/>
+                    <input type="radio" name="gender" value="other" required>Other
+                    <br/><br/>
+                    <label for="country">Select your country</label>
+                    <br/>
+                    <select name="country" id="country" required>
+                        <!-- https://www.freeformatter.com/iso-country-list-html-select.html -->
+                        <option value="" label="Select a country" selected="selected">Select a country …       </option>
+
+                        <option value="IN">India</option>
+
+                    </select>
+                </fieldset>
+            </div>
+            <!-- END DIV part-1 PERSONAL INFORMATION -->
+            <br/>
+            <!-- START DIV part-2 ACCOUNT INFORMATION -->
+            <div id="part-2">
+                   
+                <fieldset>
+                    <legend><i class="fa fa-address-book" aria-hidden="true"></i> Account Information</legend>
+                    <br/>
+                    <label for="email">Your e-mail</label>
+                    <input type="email" name="email" placeholder="account@email.com" id="email" required>
+                    <br/>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                    <br/>
+                    
+                </fieldset>
+            </div>
+            <!-- END DIV part-2 ACCOUNT INFORMATION -->
+            <!-- START DIV part-3 OTHER INFORMATION -->
+            <div id="part-3">
+                <fieldset>
+                    <legend><i class="fa fa-address-book" aria-hidden="true"></i> Other&nbsp;&nbsp; Information</legend>
+                    <br/>
+                    <label for="rating">How satisfied are you with our website?</label>
+                    <br/>
+                    <input type="radio" name="rating" id="rating" value="Very satisfied" tabindex="-1">Very satisfied
+                    <br/>
+                    <input type="radio" name="rating" value="Satisfied" tabindex="-1">Satisfied
+                    <br/>
+                    <input type="radio" name="rating" value="Dissatisfied" tabindex="-1">Dissatisfied
+                    <br/><br/><br/>
+                    <label for="message">What can we do to improve our website?</label>
+                    <br/><br/>
+                    <textarea rows="5" cols="50" id="message" tabindex="-1"></textarea>
+                    <br/><br/><br/>
+                    <input type="submit" id="submitButton" name="submitButton" value="Send-message">
+                    <input type="reset" id="resetButton" value="Reset all info" tabindex="-1">
+                </fieldset>
+            </div>
+            <!-- END DIV part-3 ACCOUNT INFORMATION -->
+        </form>
+    </div>
+    <!-- END FORM BODY -->
+
+
+    
+
+
+
+</body>
+</html>
